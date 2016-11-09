@@ -1,0 +1,13 @@
+.colour-line-wrapper {
+    margin: 0;
+    background: #222;
+    min-width: 960px;
+    height: calc(100vh / 3);
+}
+
+rect {
+fill: none;
+pointer-events: all;
+}
+
+
