@@ -1,0 +1,22 @@
+.l-restrictor {
+    padding: 0 20px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.index-wrapper {
+    background: #413f3f;
+    height: calc(100vh - 80px);
+}
+
+.index-list {
+    padding-top: 40px;
+}
+
+.index-list_link {
+    text-decoration: none;
+    color: #ea9934;
+    &:hover {
+        text-decoration: underline;
+    }
+}
