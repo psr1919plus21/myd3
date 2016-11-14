@@ -1,7 +1,7 @@
 import * as d3 from 'd3';
 
 let width = Math.max(innerWidth);
-let height = Math.max(d3.select('.colour-line-wrapper').node().getBoundingClientRect().height);
+let height = d3.select('.colour-line-wrapper').node() ? Math.max(d3.select('.colour-line-wrapper').node().getBoundingClientRect().height) : null;
 let i = 0;
 
 let svg = d3.select('.colour-line-wrapper').append('svg')

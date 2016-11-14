@@ -1,7 +1,7 @@
 import * as d3 from 'd3';
 
 let width = Math.max(innerWidth);
-let height = Math.max(d3.select('.mitoz-wrapper').node().getBoundingClientRect().height);
+let height = d3.select('.mitoz-wrapper').node() ? Math.max(d3.select('.mitoz-wrapper').node().getBoundingClientRect().height) : null;
 
 let svg = d3.select('.mitoz-wrapper').append('svg')
     .attr('width', width)
