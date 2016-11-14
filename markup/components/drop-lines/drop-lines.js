@@ -30,7 +30,6 @@ function particle() {
         .attr('height', 310)
         .style('opacity', 0)
         .remove();
-
     d3.event.preventDefault();
 }
 
