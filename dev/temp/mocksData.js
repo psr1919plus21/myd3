@@ -14,4 +14,7 @@ __pages: [{
              },{
                 name: 'mitoz',
                 href: 'mitoz.html'
+             },{
+                name: 'sandbox',
+                href: 'sandbox.html'
              }]
