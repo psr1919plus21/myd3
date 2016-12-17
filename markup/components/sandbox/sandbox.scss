@@ -1,3 +1,21 @@
-.sandbox rect {
-    fill: #333;
+.sandbox {
+    background: #393939;
+    min-height: 100vh;
+}
+
+.sandbox-title {
+    border-bottom: 1px solid rgba(255,255,255, .3);
+    color: #f7f7f7;
+    margin: 0 0 42px 0;
+    padding-top: 22px;
+    padding-bottom: 6px;
+}
+
+.sandbox-list_link,
+.main-link {
+    color: #f3f3f3;
+    text-decoration: none;
+    &:hover {
+        border-bottom: 1px solid;
+    }
 }

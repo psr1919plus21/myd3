@@ -6,3 +6,6 @@ import 'components/drop-lines/drop-lines';
 import 'components/mitoz/mitoz';
 import 'components/basic-usage/basic-usage';
 import 'components/sandbox/sandbox';
+import 'components/bars/bars';
+import 'components/scales/scales';
+import 'components/groupsandaxes/groupsandaxes';
