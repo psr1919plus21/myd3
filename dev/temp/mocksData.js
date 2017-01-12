@@ -12,6 +12,9 @@ __pages: [{
                 name: 'basic',
                 href: 'basic.html'
              },{
+                name: 'enter-up-exit',
+                href: 'enter-up-exit.html'
+             },{
                 name: 'groupsandaxes',
                 href: 'groupsandaxes.html'
              },{
