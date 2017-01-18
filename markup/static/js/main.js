@@ -10,3 +10,4 @@ import 'components/bars/bars';
 import 'components/scales/scales';
 import 'components/groupsandaxes/groupsandaxes';
 import 'components/enter-up-exit/enter-up-exit';
+import 'components/transitions/transitions';

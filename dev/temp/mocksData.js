@@ -29,4 +29,7 @@ __pages: [{
              },{
                 name: 'scales',
                 href: 'scales.html'
+             },{
+                name: 'transitions',
+                href: 'transitions.html'
              }]
