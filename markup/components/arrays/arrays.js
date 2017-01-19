@@ -3,7 +3,7 @@ import * as d3 from 'd3';
 const height = 500;
 const width = 500;
 
-d3.json('static/json/mydata.json', (err, data) => {
+d3.csv('static/csv/mydata.csv', (err, data) => {
     if (err) {
         throw new Error(err);
     }

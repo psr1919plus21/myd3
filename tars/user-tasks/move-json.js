@@ -13,9 +13,6 @@ const jsonDestPath = `./dev/${staticFolderName}/json`;
 module.exports = function () {
 
     return gulp.task('move-json', /*['required-task-name'],*/ function (done) {
-        console.log(tars.config);
-        console.log(jsonSrcPath);
-        console.log(jsonDestPath);
         return gulp.src(jsonSrcPath)
             .pipe(gulp.dest(jsonDestPath))
     });
