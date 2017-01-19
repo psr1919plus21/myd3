@@ -6,6 +6,9 @@
 },
 
 __pages: [{
+                name: 'arrays',
+                href: 'arrays.html'
+             },{
                 name: 'bars',
                 href: 'bars.html'
              },{

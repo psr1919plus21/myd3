@@ -18,7 +18,7 @@ tars.helpers.tarsFsHelper
 gulp.task('build-dev', () => gulp.start('main:build-dev'));
 
 // Dev task. Build dev-version with watchers and livereload
-gulp.task('dev', () => gulp.start('main:dev'));
+gulp.task('dev', ['main:dev'], () => gulp.start('move-json'));
 
 // Build task. Build release version
 gulp.task('build', () => gulp.start('main:build'));

@@ -1,7 +1,5 @@
 'use strict';
 
-// This is example of task function
-
 const gulp = tars.packages.gulp;
 const plumber = tars.packages.plumber;
 const notifier = tars.helpers.notifier;
@@ -10,7 +8,7 @@ const jsonSrcPath = `./markup/${staticFolderName}/json/*.json`;
 const jsonDestPath = `./dev/${staticFolderName}/json`;
 
 /**
- * Task description
+ * Move json to dev folder
  */
 module.exports = function () {
 
