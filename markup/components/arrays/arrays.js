@@ -33,8 +33,6 @@ function buildBars(data) {
     .append('g')
     .attr('transform', 'translate(50, 50)');
 
-    console.log(data);
-
     let bars = canvas.selectAll('rect')
         .data(data)
         .enter()
