@@ -13,3 +13,4 @@ import 'components/enter-up-exit/enter-up-exit';
 import 'components/transitions/transitions';
 import 'components/arrays/arrays';
 import 'components/paths/paths';
+import 'components/el-barto/el-barto';

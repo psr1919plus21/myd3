@@ -15,6 +15,9 @@ __pages: [{
                 name: 'basic',
                 href: 'basic.html'
              },{
+                name: 'el-barto',
+                href: 'el-barto.html'
+             },{
                 name: 'enter-up-exit',
                 href: 'enter-up-exit.html'
              },{
