@@ -14,3 +14,4 @@ import 'components/transitions/transitions';
 import 'components/arrays/arrays';
 import 'components/paths/paths';
 import 'components/el-barto/el-barto';
+import 'components/arcs/arcs';
