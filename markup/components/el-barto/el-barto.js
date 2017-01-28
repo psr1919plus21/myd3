@@ -17,6 +17,16 @@ function buildCanvas() {
     .append('g')
     .attr('transform', 'translate(100, 50)');
 
+    // Eyebrow
+    let bartEyeBrow = canvas.append('circle')
+        .attr('cx', 212)
+        .attr('cy', 80)
+        .attr('r', 8)
+        .attr('fill', simpsonsYellow)
+        .attr('stroke', '#000')
+        .attr('stroke-width', 1);
+
+    // Haircut
     let haircutDots = [
         {x: 210, y: 73},
         {x: 212, y: 11},
@@ -39,7 +49,6 @@ function buildCanvas() {
         {x: 292, y: 118}
     ];
 
-    // Haircut
     let haircutLine = d3.line()
         .x((d) => {
             return d.x;
@@ -57,6 +66,35 @@ function buildCanvas() {
         .attr('stroke', greyBorder)
         .attr('stroke-width', 1);
 
+    // Eye
+
+
+    let bartEyeballLeft = canvas.append('circle')
+        .attr('cx', 218)
+        .attr('cy', 98)
+        .attr('r', 19)
+        .attr('fill', '#fff')
+        .attr('stroke', '#000')
+        .attr('stroke-width', 2);
+
+    let bartPupilLeft = canvas.append('circle')
+        .attr('cx', 216)
+        .attr('cy', 100)
+        .attr('r', 3)
+        .attr('fill', '#000');
+    let bartEyeballRight = canvas.append('circle')
+        .attr('cx', 252)
+        .attr('cy', 100)
+        .attr('r', 23)
+        .attr('fill', '#fff')
+        .attr('stroke', '#000')
+        .attr('stroke-width', 2);
+
+    let bartPupilRight = canvas.append('circle')
+        .attr('cx', 255)
+        .attr('cy', 100)
+        .attr('r', 4)
+        .attr('fill', '#000');
 
 
 }
