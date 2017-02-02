@@ -44,4 +44,7 @@ __pages: [{
              },{
                 name: 'transitions',
                 href: 'transitions.html'
+             },{
+                name: 'tree-layout',
+                href: 'tree-layout.html'
              }]
