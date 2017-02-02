@@ -1,11 +1,11 @@
 
 import * as d3 from 'd3';
 
-const height = 800;
-const width = 1000;
+const height = 1000;
+const width = 1300;
 const duration = 750;
 let i = 0;
-let radius = 50;
+let radius = 30;
 
 d3.json('static/json/names.json', (err, data) => {
     if (err) {
@@ -21,7 +21,7 @@ function treeLayoutInit(data) {
         .attr('height', height)
         .attr('width', width)
         .append('g')
-        .attr('transform', 'translate(100, 50)');
+        .attr('transform', 'translate(100, 0)');
 
     let treemap = d3.tree().size([height, width]);
 
