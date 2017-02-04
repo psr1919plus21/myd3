@@ -18,6 +18,9 @@ __pages: [{
                 name: 'basic',
                 href: 'basic.html'
              },{
+                name: 'cluster',
+                href: 'cluster.html'
+             },{
                 name: 'el-barto',
                 href: 'el-barto.html'
              },{

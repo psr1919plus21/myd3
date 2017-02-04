@@ -16,3 +16,4 @@ import 'components/paths/paths';
 import 'components/el-barto/el-barto';
 import 'components/arcs/arcs';
 import 'components/tree-layout/tree-layout';
+import 'components/cluster/cluster';
